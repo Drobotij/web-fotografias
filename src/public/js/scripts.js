@@ -45,7 +45,7 @@ const hamburgesa = document.querySelector('#hamburger');
 const social = document.querySelector('#social');
 
 hamburgesa.addEventListener('click', (e) => {
-    if (hamburgesa.firstChild.src === 'http://localhost:3000/img/close.svg') {
+    if (hamburgesa.firstChild.src === 'https://drobotij-leandro-photographs.herokuapp.com/img/close.svg') {
         hamburgesa.firstChild.src = '/img/hamburger_icon.svg';
         social.classList.remove('out');
     } else {
